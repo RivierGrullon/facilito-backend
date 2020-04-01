@@ -1,0 +1,9 @@
+doctype html
+html
+    head
+        title Tareas
+    body
+
+        form(action=`/tasks/${task.id}?_method=PUT` method='POST')
+            textarea(name="description", cols="10", rows="10" placeholder="coloque aqui su description")= task.description
+            input(type="submit" value="guardar")
