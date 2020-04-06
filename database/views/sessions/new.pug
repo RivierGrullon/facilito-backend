@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title Tareas
+        link(rel="stylesheet", href="style.css")
+    body
+        div(class="grid-container")
+            form(action="/sessions" method='POST')
+                label(for="email") email
+                    input(type="email" name="email" placeholder="Email" class= "email")
+                label(for="password") password
+                    input(type="password" name="password" placeholder="Password")
+                input(type="submit" value="Signin")

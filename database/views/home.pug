@@ -1,0 +1,8 @@
+doctype html
+html
+    head
+        title Bienvenido
+    body
+        h1= user.email
+        form(action="/sessions?_method=DELETE" method= "POST")
+            input(type="submit" value="Log out")
