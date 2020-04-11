@@ -1,0 +1,54 @@
+doctype html
+html
+    head
+        title Tareas
+        link(rel="stylesheet", href="style.css")
+    body
+        div(class="content")
+
+            h1(class= "logo") Contact <span>Us</span>
+
+            <div class="contain-wrapper">
+
+                <div class="contact-form">
+                    <h3>Contáctanos</h3>
+
+                    <form action="/users" method="POST">
+                        <p>
+                            <label>Full name</label>
+                            <input type="text" name="fullname">
+                        </p>
+
+                        <p>Email address</label>
+                            <input type="email" name="email">
+                        </p>
+
+                        <p>
+                            <label>Password</label>
+                            <input type="password" name="password">   
+                        </p>
+
+                        <p>
+                            <label>Repeat Password</label>
+                            <input type="password" name="affair" >
+                        </p>
+
+                        <button class= "block"type="submit">Send</button>
+
+                    </form>
+
+
+                </div>
+
+                <div class="contact-info">
+                    <h4>More info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt" style="color: blue;"></i> address ####</li>
+                        <li><i class="fas fa-phone" style="color: blue;"></i> ajio ajio hyah</li>
+                        <li><i class="fas fa-envelope-open-text" style="color: blue;"></i> ________@hyaaaah.com</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis illo, molestiae provident maxime fugit obcaecati nam voluptatum aspernatur pariatur deleniti?</p>
+                    <p>company.com</p>
+                </div>
+
+            </div>

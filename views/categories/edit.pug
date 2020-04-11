@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    title Editar Categoria
+  body
+      
+    form(action=`/categories/${category.id}?_method=PUT` method="POST")
+        textarea(name="title" placeholder="Qué categoria vas a guardar")=category.title
+        input(type="submit" value="Guardar")
