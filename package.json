@@ -14,11 +14,13 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
-    "express-sessions": "^1.0.6",
     "method-override": "^3.0.0",
     "nodemon": "^2.0.2",
+    "npm": "^6.14.4",
     "pug": "^2.0.4",
     "sequelize": "^5.21.5",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
     "sqlite3": "^4.1.1"
   }
 }
